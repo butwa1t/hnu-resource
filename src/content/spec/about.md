@@ -3,17 +3,15 @@
 这里是 **HNU Resource**，一个由我个人维护的课程资料与学习笔记站点。
 
 - 所有**资料和笔记均由博主本人整理、上传**；
-- 访客**不能投稿或上传文件**，只能在每篇内容下方**匿名留言、提出建议或补充**；
-- 评论经博主审核后公开。
+- 本站**仅作展示与下载**，访客无需注册登录即可浏览。
 
-本站基于开源主题 [Fuwari](https://github.com/saicaca/fuwari)（Astro）构建，评论数据由 Supabase 存储，页面托管在 GitHub Pages，全程没有自建服务器。
+本站基于开源主题 [Fuwari](https://github.com/saicaca/fuwari)（Astro）构建，页面托管在 GitHub Pages，全程没有自建服务器。
 
 ## 使用须知
 
 - 所有资料仅供个人学习交流，请遵守相关课程与学校规定；
-- 请勿在评论中发布侵权、涉密或与学习无关的内容；
-- 如内容涉及你的权益并希望删除，欢迎在对应页面留言说明。
+- 如内容涉及你的权益并希望删除，欢迎通过 GitHub 联系我说明。
 
 ## 联系我
 
-可通过主页的 [GitHub](https://github.com/butwa1t/hnu-resource) 找到我；有资料想分享也欢迎在评论区留言，我会整理后由本人上传。
+可通过主页的 [GitHub](https://github.com/butwa1t/hnu-resource) 找到我。

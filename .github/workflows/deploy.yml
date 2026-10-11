@@ -36,10 +36,6 @@ jobs:
 
       - name: Build site
         run: pnpm build
-        env:
-          # 仓库 Settings → Secrets and variables → Actions → Variables
-          PUBLIC_SUPABASE_URL: ${{ vars.PUBLIC_SUPABASE_URL }}
-          PUBLIC_SUPABASE_ANON_KEY: ${{ vars.PUBLIC_SUPABASE_ANON_KEY }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

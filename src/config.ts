@@ -48,7 +48,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "/avatar.svg", // 替换为你自己的头像：把图片放到 public/ 并修改此处
 	name: "butwa1t", // 改成你想显示的名字 / 昵称
-	bio: "湖南大学 · 课程资料与学习笔记分享。留言区欢迎提建议～",
+	bio: "湖南大学 · 课程资料与学习笔记分享",
 	links: [
 		{
 			name: "GitHub",
