@@ -12,8 +12,8 @@ export const siteConfig: SiteConfig = {
 	subtitle: "课程资料 · 学习笔记",
 	lang: "zh_CN", // 'en', 'zh_CN', 'ja' ...
 	themeColor: {
-		hue: 174, // 青绿主题色（0~360），与参考站点风格接近
-		fixed: false, // 是否对访客隐藏主题色选择器
+		hue: 174, // 中性主题（饱和度已归零），色相不影响视觉
+		fixed: true, // 隐藏主题色选择器
 	},
 	banner: {
 		enable: false,
@@ -33,35 +33,14 @@ export const siteConfig: SiteConfig = {
 };
 
 export const navBarConfig: NavBarConfig = {
-	links: [
-		LinkPreset.Home,
-		LinkPreset.Archive,
-		LinkPreset.About,
-		{
-			name: "GitHub",
-			url: "https://github.com/butwa1t/hnu-resource",
-			external: true,
-		},
-	],
+	links: [LinkPreset.Home, LinkPreset.Archive, LinkPreset.About],
 };
 
 export const profileConfig: ProfileConfig = {
 	avatar: "/avatar.svg", // 替换为你自己的头像：把图片放到 public/ 并修改此处
 	name: "butwa1t", // 改成你想显示的名字 / 昵称
 	bio: "湖南大学 · 课程资料与学习笔记分享",
-	links: [
-		{
-			name: "GitHub",
-			icon: "fa6-brands:github",
-			url: "https://github.com/butwa1t/hnu-resource",
-		},
-		// 如需邮箱，取消下面注释并改成你的邮箱：
-		// {
-		// 	name: "Email",
-		// 	icon: "fa6-regular:envelope",
-		// 	url: "mailto:you@example.com",
-		// },
-	],
+	links: [],
 };
 
 export const licenseConfig: LicenseConfig = {
